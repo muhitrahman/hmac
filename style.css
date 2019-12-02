@@ -1,0 +1,214 @@
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+   
+}
+
+div.wrap{
+   background-color: goldenrod;
+    height: 150px;
+    width: 350px;
+    border: 1px hidden #000000;
+    float: left;
+    margin: 40px;
+    
+}
+div#title3{
+width: 250px;;
+height: 350px;
+padding: right;
+}
+
+ 
+/*--new--*/
+body {
+    background: 	rgb(255, 255, 255);
+    font: 14px/20px Arial, San-Serif;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    
+}
+h1{
+    text-align: center;
+    font-size: 180%;
+    line-height: 120%;
+    padding: 5% 0;
+    
+}
+h2{
+text-decoration: underline;
+line-height: 350%;
+padding-left: 10%;
+}
+h3{
+line-height: 110%;
+padding: 5% 0;
+}
+p{
+padding: 1%;
+text-align:left;
+margin: 0 0;
+margin-top: -15px;
+padding-left: 10%;
+}
+.button {
+    background-color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+img{
+text-align: center;
+max-width: 100%;
+height: auto;
+width: auto;
+}
+a{
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover{
+color: #fff;
+text-decoration: underline;
+}
+header{
+background: #708090;
+width: 100%;
+height: 86px;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+opacity: 0.90;
+}
+#logo{
+margin: 0;
+float: left;
+width: 500px;
+height: 86px;
+padding: 2px;
+background: url("img/tes4.png") no-repeat left;
+}
+nav{
+float: right;
+padding: 35px 20px 20px 0;
+}
+#menu-icon{
+display: hidden;
+width: 40px;
+height: 40px;background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+a:hover#menu-icon{
+border-radius: 4px 4px 0 0;
+}
+ul{
+list-style: none;
+}
+nav ul li{
+display: inline-block;
+float: left;
+padding: 10px;
+}
+.current{
+color: #fff;
+text-decoration: underline;
+}
+#doc{
+margin: 40px;
+}
+#content{
+margin: 0 auto;
+max-width: 1140px;
+margin-top: 110px;
+}
+section{
+width: 29%;
+float: left;
+margin: 2% 2%;
+text-align: center;
+
+}
+.clear{
+clear: both;
+}
+article{
+float: left;
+margin: 0 auto;
+width: 29%;
+padding: 5%;
+}
+aside{
+float: right;
+margin: 0 auto;
+width: 35%;
+height: auto;
+padding: 2%;
+text-align: center;
+}
+footer{
+background: #708090;;
+width: 100%;
+overflow: hidden;
+opacity: 0.90;
+
+}
+footer p, footer h3{
+color: #fff;
+}
+footer p a{
+color: #fff;
+text-decoration: none;
+}
+ul.social li{
+display: inline;
+}
+ul.social li img{
+height: 50px;
+}
+footer.second{
+border-top: 1px solid #4d4e50;
+background-color: #708090;
+max-height: 50px;
+text-align: center;
+opacity: 0.90;
+}
+@media screen and (max-width: 478px) {
+header{
+    position: absolute;
+}
+nav li{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+} 
+nav:hover ul{
+    display: block;
+}
+section{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+article{
+    float: right;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+aside{
+    float: right;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+}
